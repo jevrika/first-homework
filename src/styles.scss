@@ -403,6 +403,7 @@ textarea:not([rows]) {
 #unlock-row {
   display: inline-flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 #unlock-content {
@@ -432,6 +433,7 @@ textarea:not([rows]) {
   line-height: 44px;
 
   margin-bottom: 16px;
+  max-width: 601px;
 }
 
 .unlock__text {
@@ -444,6 +446,7 @@ textarea:not([rows]) {
   line-height: 20px;
 
   padding-bottom: 32px;
+  max-width: 601px;
 }
 
 .unlock__button-green {
@@ -473,6 +476,7 @@ textarea:not([rows]) {
   display: grid;
   width: 1440px;
   padding: 64px 144px;
+  background: var(--neutral-silver, #F5F7FA);
 }
 
 #achievments-row {
@@ -807,6 +811,7 @@ textarea:not([rows]) {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+  text-decoration: none;
 }
 
 .community-updates-cards-text-content__div-bottom {
